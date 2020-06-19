@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.nevertrouble.spring</groupId>
-    <artifactId>strategy</artifactId>
+    <artifactId>strategy-with-spring</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>strategy</name>
     <description>spring 策略模式结合</description>

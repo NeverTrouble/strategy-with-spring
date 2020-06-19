@@ -22,6 +22,8 @@ public class ExcelResoverContext {
      *
      * 注意，不同的实现，@Service("要有不同的名字")
      *
+     * README 里使用了属性注入，而这里使用了构造注入的原因是，直接注入的 beanName:bean 的 map 不是我想要的
+     * 我拿到这个 map 去提取我想要的 sheetName 用于构建 sheetName 和 bean 的对应
      * @param excelResolverMap
      */
     @Autowired
