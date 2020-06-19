@@ -1,5 +1,11 @@
 # Spring 中的策略模式
 
+## 代码功能
+
+代码实现中，模拟了对 Excel 中不同的 Sheet 使用不同的解析器
+
+## 原理
+
 ```java
 
 @Component
