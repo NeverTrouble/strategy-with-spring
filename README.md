@@ -47,6 +47,7 @@ public class Context {
             return;
         }
         
+        // 策略体现在这里通过不同的 key 获取不同的策略
         // 多态体现在这里的类型是 接口 （或父类）
         StrategyInterface strategy = KEY_TO_STRATEGY.get(key);
         strategy.use(data);
