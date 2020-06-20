@@ -11,7 +11,7 @@ import java.util.Objects;
  */
 @Slf4j
 @Service("sheet1Resolver")
-public class Sheet1Resolver implements ExcelResover {
+public class Sheet1Resolver implements ExcelResolver {
 
     private String sheetName = "sheet1";
 

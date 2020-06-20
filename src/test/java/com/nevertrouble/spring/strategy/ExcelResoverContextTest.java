@@ -4,13 +4,11 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 @SpringBootTest
 class ExcelResoverContextTest {
 
     @Autowired
-    private ExcelResoverContext resoverContext;
+    private ExcelResolverContext resoverContext;
 
     @Test
     void resolve() {

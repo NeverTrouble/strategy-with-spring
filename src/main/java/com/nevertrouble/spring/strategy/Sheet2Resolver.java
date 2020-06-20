@@ -8,7 +8,7 @@ import java.util.Objects;
 
 @Slf4j
 @Service("sheet2Resolver")
-public class Sheet2Resolver implements ExcelResover {
+public class Sheet2Resolver implements ExcelResolver {
 
     private String sheetName = "sheet2";
 
